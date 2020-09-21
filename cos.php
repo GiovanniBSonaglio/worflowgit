@@ -1,10 +1,11 @@
 <?php
 
 $x = 1;
+$y = 3;
 
-$f = 5;
+$f = (sin($x) - cos($y)) / 2;
 
-echo $x;
+echo $f;
 
 
 ?>
